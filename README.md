@@ -10,6 +10,5 @@ node debug.js
 - start client
 ```
 cd client
-http-server
-localhost:8000/index.html
+yarn start
 ```

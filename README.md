@@ -1,5 +1,5 @@
 # total-vanilla
-Playground with vanilla-js and total.js
+Playground with React and total.js
 
 - start server
 ```

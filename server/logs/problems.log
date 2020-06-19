@@ -2,3 +2,5 @@
 2020-06-19 21:31:41 | {"errno":-4058,"code":"ENOENT","syscall":"open","path":"D:\\Projects\\web\\react\\egg-react\\client\\App.js"} url: http://localhost:8000/api/getfile?name=client/App.js source: response400() ip: 127.0.0.1
 2020-06-19 21:39:59 | {"errno":-4058,"code":"ENOENT","syscall":"open","path":"D:\\Projects\\web\\react\\egg-react\\client\\server\\README.md"} url: http://localhost:8000/api/getfile?name=client/server/README.md source: response400() ip: 127.0.0.1
 2020-06-19 21:40:16 | {"errno":-4058,"code":"ENOENT","syscall":"open","path":"D:\\Projects\\web\\react\\egg-react\\client\\server\\test.js"} url: http://localhost:8000/api/getfile?name=client/server/test.js source: response400() ip: 127.0.0.1
+2020-06-20 01:44:46 | {"errno":-4058,"code":"ENOENT","syscall":"open","path":"D:\\Projects\\web\\react\\egg-react\\client\\debug.js"} url: http://localhost:8000/api/getfile?name=client/debug.js source: response400() ip: 127.0.0.1
+2020-06-20 01:44:46 | {"errno":-4058,"code":"ENOENT","syscall":"open","path":"D:\\Projects\\web\\react\\egg-react\\client\\debug.js"} url: http://localhost:8000/api/getfile?name=client/debug.js source: response400() ip: 127.0.0.1

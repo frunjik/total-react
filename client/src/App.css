@@ -14,12 +14,14 @@
 }
 
 .App-top {
-  height: 10vh;
+  width: 100%;
+  height: 20%;
 }
 
 .App-header {
   background-color: #282c34;
-  height: 90vh;
+  height: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   color: white;

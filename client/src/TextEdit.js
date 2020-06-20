@@ -5,41 +5,39 @@ import { FileSystem } from './fs';
 const fs = new FileSystem();
 
 export class TextEdit extends React.Component {
-	constructor(props) {
-		super(props);
+  constructor(props) {
+    super(props);
 
-		this.state = {
+    this.state = {
       height: this.props.height || '300px',
-			filename: this.props.filename,
-			filedata: ''
-		};
+      filename: this.props.filename,
+      filedata: ''
+    };
 
-		this.loadfile();
-	}
+    this.loadfile();
+  }
 
-  	get filename() {
-		return this.state.filename;
-  	}
+    get filename() {
+    return this.state.filename;
+    }
 
-	get filedata() {
-	return this.state.filedata;
-	}
+  get filedata() {
+  return this.state.filedata;
+  }
 
-	loadfile = event => {
-		fs.load(this.filename,
-			s => this.setFiledata(s),
-			f => this.showError(`Error loading ${this.filename}`)
+  loadfile = event => {
+    fs.load(this.filename,
+      s => this.setFiledata(s),
+      f => this.showError(`Error loading ${this.filename}`)
     );
-	}
+  }
 
-	savefile = event => {
-		fs.save(this.filename, this.filedata,
-			s => {},
-			f => {},
+  savefile = event => {
+    fs.save(this.filename, this.filedata,
+      s => {},
+      f => {},
     );
-    event.preventDefault();
-    return false;
-	}
+  }
 
   showError = s => {
     // TODO

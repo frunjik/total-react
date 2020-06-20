@@ -1,6 +1,6 @@
 import { HttpClient } from './http.js';
 
-const server = 'http://localhost:8000/';
+const server = 'http://192.168.2.12:8000/';
 
 export class FileSystem {
 

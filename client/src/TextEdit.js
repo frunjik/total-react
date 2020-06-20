@@ -71,7 +71,7 @@ export class TextEdit extends React.Component {
               <div className="outline w-20 pa3 mr2">
                 <div
                   onClick={this.loadfile}
-                  className="w-80 f6 link dim ph3 pv2 mt2 mb2 dib white bg-black" href="#0">load</div>
+                  className="w-80 f6 link dim ph3 pv2 mt2 mb2 dib white bg-black" href="#0">load file</div>
               </div>
 
               <div className="w-60">
@@ -91,7 +91,7 @@ export class TextEdit extends React.Component {
               <div className="outline w-20 pa3">
                 <div
                   onClick={this.savefile}
-                  className="w-80 f6 link dim ph3 pv2 mb2 mt2 dib white bg-black" href="#0">save</div>
+                  className="w-80 f6 link dim ph3 pv2 mb2 mt2 dib white bg-black" href="#0">save file</div>
               </div>
             </div>
           </div>

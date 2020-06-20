@@ -17,8 +17,8 @@ class App extends React.Component {
 
       return (
         <div className="App">
-          <TextEdit filename="server/debug.js"></TextEdit>
-          <TextEdit filename="client/src/App.js"></TextEdit>
+          <TextEdit height="332px" filename="projects/total-react/client/src/App.js"></TextEdit>
+          <TextEdit height="470px" filename="projects/urbit/smith/urbit/app/smith.hoon"></TextEdit>
         </div>
       );
     }

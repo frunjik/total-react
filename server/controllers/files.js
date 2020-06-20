@@ -1,5 +1,5 @@
 const fs = require('fs');
-const rootfolder = '../';
+const rootfolder = '/home/jeroen/';
 
 exports.install = function() {
 	F.route('/api/folders', getFolders, ['get', 'cors']);
